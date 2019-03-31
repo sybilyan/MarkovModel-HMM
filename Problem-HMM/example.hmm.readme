@@ -1,0 +1,10 @@
+// there are 2 states and 4 symbols. The alphabet of symbols include: A C G T
+2 4 ACGT
+// the initial probaiblity for two states are 0.5 and 0.5
+.5 .5
+// the transition probability from state 1 to itself is 0.999. The transition probability from state1 to state 2 is 0.001. 
+// the emission probabilities of state 1 for A,C,G,T are: 0.35, 0.15, 0.15, 0.35. 
+.999 .001  .35 .15 .15 .35
+// the transition probability from state 2 to itself is	0.999. The transition probability from state 2 to state 1 is 0.01.
+// the emission	  probabilities of state 2 for A,C,G,T are: 0.15,  0.35, 0.35, 0.15.
+.01  .99   .15 .35 .35 .15

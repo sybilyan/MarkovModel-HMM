@@ -1,0 +1,14 @@
+the root file in hw3//1.1//1.1.py or 1.2.py, the programming langrange is Python 2.7 
+
+firstly input command : python 1.2.py
+then according to the hint to input: "input.test" ->  "inside.text" ->  "outside.text" (note the double quotes here is requested)
+the output for 1.1.py will be like: 
+97.719196 inside/n 111.521633 inside/n...
+
+then input command for 1.2.py :   python 1.2.py  
+according to the hint to input: "example.fa" ->  "example.HMM" (note the double quotes here is requested)
+the output for 1.2.py will be like: 
+1  51  state2
+52  719  state1
+720  767  state2
+ ....num of state2 is 688
